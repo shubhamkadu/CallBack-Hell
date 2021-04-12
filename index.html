@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div"></div>
+    <script>setTimeout(()=>{
+        document.getElementById('div').innerHTML=10
+        setTimeout(()=>{
+            document.getElementById('div').innerHTML=9
+            setTimeout(()=>{
+                document.getElementById('div').innerHTML=8
+                setTimeout(()=>{
+                    document.getElementById('div').innerHTML=7
+                    setTimeout(()=>{
+                        document.getElementById('div').innerHTML=6
+                        setTimeout(()=>{
+                            document.getElementById('div').innerHTML=5
+                            setTimeout(()=>{
+                                document.getElementById('div').innerHTML=4
+                                setTimeout(()=>{
+                                    document.getElementById('div').innerHTML=3
+                                    setTimeout(()=>{
+                                        document.getElementById('div').innerHTML=2
+                                        setTimeout(()=>{
+                                            document.getElementById('div').innerHTML=1
+                                            setTimeout(()=>{
+                                                document.getElementById('div').innerHTML="Happy Independence Day"
+                                            },1000)    
+                                        },1000);
+                                    },1000);
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        },1000); 
+    },1000);                               
+    </script>
+    
+</body>
+</html>
